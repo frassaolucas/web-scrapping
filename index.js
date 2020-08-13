@@ -4,7 +4,7 @@ const fs = require('fs');
 (async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto(`https://instagram.com/mileneinoue`);
+  await page.goto(`https://instagram.com/rocketseat_oficial`);
 
   const imgList = await page.evaluate(() => {
     // get images inside posts area
